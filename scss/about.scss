@@ -1,0 +1,28 @@
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #ebebeb;
+	padding: 2rem 15% 6rem 15%;
+    & .heading {
+        width: 100%;
+        color: #232323;
+    }
+    &__img {
+        width: 45%;
+        max-width: 30rem;
+        height: 30rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__desc {
+        width: 50%;
+        font-size: 1.25rem;
+    }
+    &__underline {
+        border-bottom: 5px solid #54be90;
+    }
+    &__cta {
+        font-size: 1.5rem;
+    }
+}
